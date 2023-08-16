@@ -2,9 +2,14 @@
   "name": "postcss-pxtorpx",
   "version": "0.0.0",
   "description": "PostCSS plugin pxtorpx",
-  "keywords": ["postcss", "css", "postcss-plugin", "postcss-pxtorpx"],
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "postcss-pxtorpx"
+  ],
   "scripts": {
-    "test": "jest --coverage && eslint ."
+    "test": "jasmine"
   },
   "author": "weiming <365423254@qq.com>",
   "license": "MIT",
@@ -19,6 +24,7 @@
     "clean-publish": "^3.4.2",
     "eslint": "^8.0.1",
     "eslint-plugin-jest": "^25.2.2",
+    "jasmine": "^5.1.0",
     "jest": "^27.3.1",
     "postcss": "^8.3.11"
   },
@@ -30,7 +36,10 @@
       "node": true,
       "es6": true
     },
-    "extends": ["eslint:recommended", "plugin:jest/recommended"],
+    "extends": [
+      "eslint:recommended",
+      "plugin:jest/recommended"
+    ],
     "rules": {
       "jest/expect-expect": "off"
     }
