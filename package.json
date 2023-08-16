@@ -11,7 +11,7 @@
   "scripts": {
     "test": "jasmine"
   },
-  "author": "weiming <365423254@qq.com>",
+  "author": "Wesley <wesleywei.fe@outlook.com>",
   "license": "MIT",
   "repository": "winssps/postcss-pxtorpx",
   "engines": {

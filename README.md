@@ -7,12 +7,14 @@
 ```css
 .foo {
   /* Input example */
+  font-size: 32px
 }
 ```
 
 ```css
 .foo {
   /* Output example */
+  font-size: 64rpx
 }
 ```
 
